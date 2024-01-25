@@ -5,5 +5,5 @@ Getting started:
 - To run the test files execute `pytest <filename>`
 
 To Do:
-- `YieldAverage.py` contains functions sum, count, and average. You can edit and modify the functions as you like, the sum function has already been modified to support all the test cases in `TestYieldSum.py`
+- `YieldAverage.py` contains functions sum, count, and average. You can edit and modify the functions as you like, the sum function has already been modified to support all the test cases for `TestYieldSum.py`
 - Following the example of test cases in `TestYieldSum.py`, build the test cases with the given wafer lots and test functions for `TestYieldCount.py` and `TestYieldAverage.py` 
