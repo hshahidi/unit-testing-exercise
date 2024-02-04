@@ -19,20 +19,21 @@ def wafer_yield_sum(list):
                 else:
                     total += i 
                     
-    return round(total, 4)
-  
+    return round(total, 4)          
+    
 
 def wafer_yield_count(list):
-    count = 0
-    for i in list:
-        count += 1
-    return count
+    #return count
+    pass
 
+
+def divide(numerator, denominator):
+    return numerator/denominator
 
 
 def lot_yield_average(list):
-    average_list = wafer_yield_sum(list) / wafer_yield_count(list)
-    return round(average_list, 4)
+    return divide(wafer_yield_sum(list), wafer_yield_count(list))
+ 
 
 
 
