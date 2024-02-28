@@ -118,6 +118,8 @@ def test_error_count_larger_than_25():
         assess_wafer_yield(wafer_lot_9)
 
 
+####Practice Section####
+
 """
 Expected result should round down to four decimal places.
 Wafer lot contains decimals that are four decimal places in length.
