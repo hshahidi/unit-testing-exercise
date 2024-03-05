@@ -119,7 +119,7 @@ def test_error_count_larger_than_25():
 
 
 ####Practice Section####
-
+# Test the function lot_yield_average() for these unit tests below
 """
 Expected result should round down to four decimal places.
 Wafer lot contains decimals that are four decimal places in length.
