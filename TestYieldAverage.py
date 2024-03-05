@@ -175,9 +175,9 @@ def test_average_all_converted_inputs():
 
 """
 Expected result should average all the inputs that are in decimal format.
-Wafer lot contains some input strings that should be ignored.
+Wafer lot contains some input strings that should be converted to their float equivalent.
 """
-def test_ignores_all_string_inputs():
+def test_converts_all_string_inputs():
     pass
 
 
