@@ -32,9 +32,9 @@ def test_contains_0_and_1():
 
 """
 Contains elements between 0 and 1 and NULL types values.
-Should return list with NULL types removed.
+Should convert list with NULL types removed.
 """
-def test_should_ignore_blank_inputs():
+def test_should_convert_blank_inputs():
     wafer_lot_3 = [0.1234, 0.5678, 0.3456, 0.9876, 0.4321, None, 0.5432, 0.0002, 0.1098, 0.125, 0.4321, 
     None, 0.5678, 0.365, None, 0.2386, 0.156, 0.6543, 0.0123, 0.3356, 0.3456, 0.219, 0.4567, 0.1898]
     
