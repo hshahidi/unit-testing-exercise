@@ -61,7 +61,7 @@ def test_should_convert_percents_into_decimals():
 Contains random string values. 
 Should return the converted string values to their float equivalents. 
 """
-def test_should_ignore_string_inputs():
+def test_should_convert_string_inputs():
     wafer_lot_5 = [0.9234, 0.8678, 0.8456, 0.9876, 0.7321, 0.8789, 0.8432, 0.8765, 0.1098, 0.9765,
     0.7321, 0.5345, 0.5678, 0.8765, "0.9876", 0.9456, 0.7890, 0.7987, 0.6543, 0.6123,
     0.8765, "0.9456", "0.7890", 0.7567, 0.8901]
@@ -142,10 +142,10 @@ def test_varying_lengths_of_decimal_returns_rounded_up_average():
     pass
 
 """
-Expected result should average all valid inputs and ignore blank wafer inputs.
+Expected result should average all valid inputs and convert blank wafer inputs.
 Wafer lot contains decimals between 0 and 1 inclusive and blank wafer inputs.
 """
-def test_ignore_blank_inputs():
+def test_convert_blank_inputs():
     pass
 
 
