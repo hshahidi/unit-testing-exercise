@@ -11,7 +11,7 @@ def assess_wafer_yield(list):
 
     elif len(list) > 25:
         raise ValueError("Error: Wafer lot exceeds limit of 25 wafers.")
-
+-
     else:
         for i, value in enumerate(list):
             if value is None:
