@@ -11,7 +11,7 @@ def assess_wafer_yield(list):
 
     elif len(list) > 25:
         raise ValueError("Error: Wafer lot exceeds limit of 25 wafers.")
--
+
     else:
         for i, value in enumerate(list):
             if value is None:
@@ -38,22 +38,14 @@ Array Sum:
 Modularized Sum function that can be applied to any part of your code.
 """
 def array_sum(list):
-    total = 0
-    
-    for i in list:
-        total += i 
-                    
-    return total
+    pass
 
 """
 Array Count:
 Modularized Count function that can be applied to any part of your code.
 """
 def array_count(list):
-    count = 0
-    for i in list:
-        count += 1
-    return count
+    pass
 
 
 """
@@ -62,10 +54,7 @@ Returns the divided result with additional error handling for division by zero.
 Promotes modularization with the code.
 """
 def divide(numerator, denominator):
-    if denominator == 0:
-        raise ValueError("Error: Cannot divide by zero.")
-    else:
-        return round(numerator/denominator, 4)
+    pass
 
 
 """
